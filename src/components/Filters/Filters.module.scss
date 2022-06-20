@@ -1,0 +1,14 @@
+.main{
+    padding-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    
+   & .filterblock{
+        & .content{
+            display: flex;
+            justify-content: space-between;
+        }
+   }
+}
